@@ -1,7 +1,7 @@
 import gradio as gr
 from transformers import pipeline
 
-# Load a pre-trained sentiment-analysis pipeline
+## Load a pre-trained sentiment-analysis pipeline
 classifier = pipeline("sentiment-analysis")
 
 def analyze_sentiment(text):
